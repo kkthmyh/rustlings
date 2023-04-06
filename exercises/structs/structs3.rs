@@ -26,7 +26,7 @@ impl Package {
     }
 
     fn is_international(&self) -> bool {
-        if self.weight_in_grams > 0ß && self.sender_country != self.recipient_country {
+        if self.weight_in_grams > 0 && self.sender_country != self.recipient_country {
             true
         } else {
             false
